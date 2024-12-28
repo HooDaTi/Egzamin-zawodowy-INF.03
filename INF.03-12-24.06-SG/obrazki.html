@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Efekty obrazu</title>
+        <link rel="stylesheet" type="text/css" href="styl.css">
+    </head>
+    <body>
+        <header>
+            <h2>Efekty na obrazach</h2>
+        </header>
+        <main>
+            <section>
+                <img src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku" id="pszczola"><br>
+                <input type="radio" name="pszczolka" value="blur" id="blur">
+                <label for="blur">Blur</label><br>
+                <input type="radio" name="pszczolka" value="sepia" id="sepia">
+                <label for="sepia">Sepia</label><br>
+                <input type="radio" name="pszczolka" value="negatyw" id="negatyw">
+                <label for="negatyw">Negatyw</label><br>
+                <button class="btn" onclick="pszczola()">Zastosuj</button>
+            </section>
+            <section>
+                <img src="pomarancza.jpg" alt="drzewo pomarańczy" id="pomarancza"><br>
+                <button class="btn" onclick="kolory()">Kolorowy</button>
+                <button class="btn" onclick="szarosc()">Czarno-biały</button>
+            </section>
+            <section>
+                <img src="owoce.jpg" alt="Kosz pełen owoców" id="owoce">
+                <input id="suwak1" type="range" min="0" max="100" step="1" value="100" name="suwak-owoce"><br>
+                <button class="btn" onclick="przezroczystosc()">Zastosuj</button>
+            </section>
+            <section>
+                <img src="zolw.jpg" alt="Żółw w wodzie" id="zolw"><br>
+                <input id="suwak2" type="range" min="0" max="250" name="suwak-zolw"><br>
+                <button class="btn" onclick="zmiana()">Zastosuj</button>
+            </section>
+        </main>
+        <footer>
+            <p><a href="http://www.css.com/" target="_blank">Zobacz inne efekty obrazu</a></p>
+            <p>Stronę wykonał: 44444444444</p>
+        </footer>
+        <script src="skrypt.js"></script>
+    </body>
+    
+</html>

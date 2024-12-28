@@ -1,0 +1,46 @@
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Galeria</title>
+        <link rel="stylesheet" href="styl2.css">
+    </head>
+    <body>
+        <header>
+            <h1>Galeria obrazów</h1>
+        </header>
+        <section id="lewy">
+            <img src="zdjecie.jpg" alt="zdjęcie dnia">
+            <h3>Zdjęcia opublikowali</h3>
+            <table>
+                <tr>
+                    <td>Anna Porada</td>
+                    <td>10 zdjęć</td>
+                </tr>
+                <tr>
+                    <td>Krzysztof Wasilewski</td>
+                    <td>12 zdjęć</td>
+                </tr>
+                <tr>
+                    <td>Monika Kowalska</td>
+                    <td>4 zdjęcia</td>
+                </tr>
+            </table>
+        </section>
+        <section id="prawy">
+            <button onclick="lastimg()">prev</button>
+            <img id="duzy" src="1.jpg" alt="galeria">
+            <button onclick="nextimg()">next</button>
+        <hr>
+        <img class="mini" src="1.jpg" alt="miniatura" onclick="zamiana(1)">
+        <img class="mini" src="2.jpg" alt="miniatura" onclick="zamiana(2)">
+        <img class="mini" src="3.jpg" alt="miniatura" onclick="zamiana(3)">
+        <img class="mini" src="4.jpg" alt="miniatura" onclick="zamiana(4)">
+        <img class="mini" src="5.jpg" alt="miniatura" onclick="zamiana(5)">
+        </section>
+        <footer>
+            <a href="https://pixabay.com">Więcej obrazów</a>
+            <p>Galerię wykonał: 4444444444</p>
+        </footer>
+        <script src="skrypt.js"></script>
+    </body>
+</html>

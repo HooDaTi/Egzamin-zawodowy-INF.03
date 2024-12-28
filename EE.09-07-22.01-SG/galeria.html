@@ -1,0 +1,44 @@
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Galeria</title>
+        <link rel="stylesheet" href="styl7.css">
+    </head>
+    <body>
+        <header>
+            <h2>Galeria miejsc ciekawych</h2>
+        </header>
+        <section id="glowny">
+            <img src="lanzarotte.jpg" alt="galeria">
+        </section>
+        <section id="lewy">
+            <h3>Przeglądaj zdjęcia</h3>
+            <img src="lanzarotte.jpg" alt="lanzarotte" onclick="zdjecie('lanzarotte')">
+            <img src="pekin.jpg" alt="pekin" onclick="zdjecie('pekin')">
+            <img src="serengeti.jpg" alt="serengeti" onclick="zdjecie('serengeti')">
+            <img src="wenecja.jpg" alt="wenecja" onclick="zdjecie('wenecja')">
+            <img src="tajlandia.jpg" alt="tajlandia" onclick="zdjecie('tajlandia')">
+        </section>
+        <section id="prawy">
+            <h3>Obrazy w naszej galerii</h3>
+            <table>
+                <tr>
+                    <td>Europa</td>
+                    <td>Azja</td>
+                    <td>Afryka</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <p>Polub nas <img id="icon" src="icon-off.png" onclick="ikona()"></p>
+            <a href="https://pixabay.com" target="_blank">Odkryj więcej zdjęć</a>
+        </section>
+        <footer>
+            <p>Autor: 44444444444</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

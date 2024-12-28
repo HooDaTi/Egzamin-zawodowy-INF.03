@@ -1,0 +1,14 @@
+* { 
+    font-family: Verdana;
+}
+
+header div {
+    background-color: #6F79A8;
+    color: white;
+    height: 140px;
+    display: inline;
+}
+
+#first-header-block {
+    display: inline;
+}

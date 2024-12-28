@@ -1,0 +1,4 @@
+1. SELECT nazwaPliku, podpis FROM zdjecia ORDER BY podpis;
+2. SELECT cel, dataWyjazdu FROM wycieczki WHERE dostepna = 0;
+3. SELECT cel, cena, podpis FROM zdjecia JOIN wycieczki ON zdjecia.id = wycieczki.zdjecia_id WHERE cena > 1300;
+4. DROP TABLE uzytkownik;

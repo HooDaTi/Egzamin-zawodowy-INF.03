@@ -1,0 +1,47 @@
+* {
+    font-family: Century, Serif;
+    text-align: center;
+}
+
+header, footer {
+    background-color: Indigo;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+}
+
+section {
+    width: 50%;
+    height: 470px;
+    float: left;
+}
+
+img {
+    padding: 3px;
+    margin: 10px;
+    border: 2px dashed SlateBlue;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: indigo;
+}
+
+footer {
+    clear: both;
+}
+
+#suwak1, #suwak2 {
+    width: 80%;
+}

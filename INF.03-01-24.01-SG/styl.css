@@ -1,0 +1,61 @@
+html {
+    background-color: #EEEEEE;
+    font-family: Helvetica;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+#logo, #menu {
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+}
+
+header {
+    background-color: #DDDDDD;
+    height: 200px;
+    clear: both;
+}
+
+main {
+    color: navy;
+    margin: 50px;
+    height: 400px;
+}
+
+footer {
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+button {
+    background-color: lightblue;
+    color: navy;
+}
+
+#menu a {
+    color: navy;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+#menu a:hover {
+    border: 1px solid navy;
+}
