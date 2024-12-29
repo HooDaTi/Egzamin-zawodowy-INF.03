@@ -1,0 +1,64 @@
+* {
+    font-family: Bookman Old Style, Serif;
+}
+
+header section {
+    background-color: DarkCyan;
+    color: white;
+    width: 50%;
+    height: 100px;
+    letter-spacing: 15px;
+    float: left;
+}
+
+footer {
+    background-color: DarkCyan;
+    color: white;
+}
+
+main div {
+    background-color: Azure;
+    width: 30%;
+    margin: 1%;
+    box-shadow: 4px 4px 8px dimgray;
+    float: left;
+}
+
+main div img {
+    width: 100%;
+}
+
+p, h2, h3 {
+    margin: 15px;
+}
+
+a {
+    color: white;
+}
+
+h5 {
+    background-color: Teal;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h5:hover {
+    background-color: lightseagreen;
+}
+
+blockquote {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    clear: both;
+}
+
+#cytat2, #cytat3 {
+    display: none;
+}
