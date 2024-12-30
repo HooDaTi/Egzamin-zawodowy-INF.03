@@ -1,0 +1,76 @@
+* {
+    font-family: Georgia;
+    color: white;
+}
+
+header, footer {
+    background-color: Maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+#lewy, main, #prawy {
+    background-color: LightSalmon;
+    height: 527px;
+}
+
+#lewy, #prawy {
+    width: 15%;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+#lewy {
+    float: left;
+}
+
+#prawy {
+    float: right;
+}
+
+#miniatury {
+    background-color: Maroon;
+    height: 70px;
+    clear: both;
+}
+
+button {
+    background-color: lightsalmon;
+    color: maroon;
+    border: none;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+
+@keyframes mini {
+    from {padding-left: 50px;}
+    to {padding-left: 0px;}
+}
+
+#miniatury img {
+    height: 70px;
+    animation-name: mini;
+    animation-duration: 4s;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+
+@keyframes duzy {
+    from {scale: 100%;}
+    to {scale: 120%;}
+}
+
+main img:hover {
+    scale: 120%;
+    animation-name: duzy;
+    animation-duration: 5s;
+}
