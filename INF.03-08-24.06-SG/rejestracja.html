@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sklep - rejestracja</title>
+        <link rel="stylesheet" type="text/css" href="styl.css">
+    </head>
+    <body>
+        <aside>
+            <img src="obraz.png" alt="promocje">
+            <h2>Sprawdź promocje</h2>
+            <table>
+                <tr>
+                    <th>co?</strong></th>
+                    <th>ile taniej?</th>
+                </tr>
+                <tr>
+                    <td>ubrania</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>buty</td>
+                    <td>25%</td>
+                </tr>
+            </table>
+        </aside>
+        <header>
+            <h1>Zarejestruj się w sklepie</h1>
+        </header>
+        <main>
+            <button onclick="aktywująca('klient')">Klient</button>
+            <button onclick="aktywująca('adres')">Adres</button>
+            <button onclick="aktywująca('kontakt')">Kontakt</button>
+            <section id="blok1">
+                <p>Imię</p>
+                <input onfocusout="postep()" type="text" placeholder="Wpisz dane..." name="imie" id="imie">
+                <p>Nazwisko</p>
+                <input onfocusout="postep()" type="text" name="nazwisko" id="nazwisko">
+                <p>Data urodzenia</p>
+                <input onfocusout="postep()" type="date" name="data-ur" id="data-ur">
+            </section>
+            <section id="blok2">
+                <p>Ulica</p>
+                <input onfocusout="postep()" type="text" name="ulica" id="ulica">
+                <p>Numer</p>
+                <input onfocusout="postep()" type="number" name="numer" id="numer">
+                <p>Miasto</p>
+                <input onfocusout="postep()" type="text" name="miasto" id="miasto">
+            </section>
+            <section id="blok3">
+                <p>Numer komórkowy</p>
+                <input onfocusout="postep()" type="tel" name="telefon" id="telefon"><br>
+                <input onfocusout="postep()" type="checkbox" name="rodo" id="rodo">
+                <label name="rodo">Akceptuję RODO</label><br>
+                <button onclick="zatwierdz()">Zatwierdź dane</button>
+            </section>
+        </main>
+        <section id="pasek">
+            <section></section>
+        </section>
+        <footer>
+            <h4>Rejestrację do sklepu wykonał: 44444444444</h4>
+        </footer>
+    </body>
+    <script src="skrypt.js"></script>
+</html>
