@@ -1,0 +1,67 @@
+* {
+    font-family: Cambria;
+}
+
+header {
+    background-color: #C2185B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    background-image: url(tulipany.jpg);
+    height: 500px;
+}
+
+footer section {
+    background-color: #C2185B;
+    color: white;
+    width: 25%;
+    height: 240px;
+}
+
+footer {
+    display: flex;
+}
+
+main section {
+    background-color: #FCE4EC;
+    width: 25%;
+    height: 300px;
+    margin: 25px;
+    padding: 16px;
+    float: left;
+}
+
+#blok2-glowny, #blok3-glowny {
+    visibility: hidden;
+}
+
+p {
+    padding-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+}
+
+button {
+    background-color: #c2185b;
+    color: white;
+    margin-top: 50px;
+    margin-left: 60%;
+    padding: 20px;
+    border: none;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
