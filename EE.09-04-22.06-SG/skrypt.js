@@ -1,7 +1,7 @@
 let produkty = ['ilosc1', 'ilosc2','ilosc3', 'ilosc4'];
 let id_zamowienia = 0;
 function braki(){
-    for (i = 0; i < produkty.length; i += 1) {
+    for (let i = 0; i < produkty.length; i += 1) {
         let ilosc = document.getElementById(produkty[i]);
         if (ilosc.innerText == 0) {
             ilosc.style.backgroundColor = 'red';
