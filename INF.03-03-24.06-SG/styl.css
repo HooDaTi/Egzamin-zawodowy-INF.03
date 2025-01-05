@@ -1,0 +1,63 @@
+* {
+    font-family: Georgia;
+}
+
+header section {
+    background-color: Navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+menu {
+    background-color: Navy;
+    padding: 20px;
+    clear: both;
+}
+
+.radio {
+    color: Silver;
+    margin: 50px;
+}
+
+label:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#lewy, #prawy {
+    background-color: Azure;
+    height: 550px;
+}
+
+#lewy {
+    width: 70%;
+    float: left;
+}
+
+#prawy {
+    width: 30%;
+    float: right;
+}
+
+footer {
+    background-color: Navy;
+    color: white;
+    clear: both;
+}
+
+table {
+    border: 1px solid Navy;
+    margin: auto;
+    width: 70%;
+}
+
+tr:hover {
+    background-color: SkyBlue;
+}
+
+#prawy img {
+    width: 90%;
+}
