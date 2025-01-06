@@ -1,0 +1,58 @@
+* {
+    font-family: Tahoma;
+}
+
+header section {
+    background-color: #003d33;
+    color: white;
+    text-align: center;
+    height: 50px;
+    float: left;
+}
+
+#blok1 {
+    width: 70%;
+}
+
+#blok2 {
+    width: 30%;
+}
+
+#lewy {
+    background-color: #26a69a;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+
+#prawy {
+    background-color: #26a69a;
+    height: 550px;
+    width: 70%;
+    float: right;
+}
+
+footer {
+    background-color: #003d33;
+    color: white;
+    clear: both;
+}
+
+#prawy section {
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    border: 1px solid #003d33;
+}
+
+#prawy section button {
+    background-color: #003d33;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+#prawy section button:hover {
+    background-color: #004c49;
+}
