@@ -1,0 +1,77 @@
+* {
+    font-family: Helvetica;
+}
+
+header, footer {
+    background-color: Sienna;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#lewy, #prawy {
+    background-color: NavajoWhite;
+    width: 15%;
+    height: 700px;
+}
+
+#lewy {
+    float: left;
+}
+
+#prawy {
+    float: right;
+}
+
+
+main {
+    width: 70%;
+    height: 700px;
+    overflow: scroll;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+main section {
+    float: left;
+    width: 46%;
+    margin: 2%;
+    position: relative;
+}
+
+h3, p, a {
+    opacity: 0;
+    position: absolute;
+}
+
+h3 {
+    top: 5%;
+}
+
+p {
+    top: 30%;
+}
+
+a {
+    top: 70%;
+    left: 70%;
+    background-color: Sienna;
+    padding: 15px;
+}
+
+main section:hover img {
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+
+}
+
+main section:hover h3, main section:hover p, main section:hover a {
+    opacity: 1;
+}
