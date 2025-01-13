@@ -1,0 +1,4 @@
+1. SELECT quote, author FROM daily WHERE day = 3;
+2. SELECT author FROM daily WHERE author != "autor nieznany" GROUP BY author HAVING COUNT(quote) = 1;
+3. SELECT quote FROM daily JOIN popular ON daily.id = popular.daily_id ORDER BY upvotes DESC LIMIT 1;
+4. INSERT INTO `daily`(`day`, `quote`, `author`) VALUES ('7',' cokolwiek mądrze brzmiącego po polsku lub angielskiemu','Jan Kowalski')

@@ -1,0 +1,54 @@
+header {
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(41,168,41);
+}
+
+#lewy {
+    width: 15%;
+    height: 500px;
+    background-color: rgb(85,161,85);
+    float: left;
+}
+
+main {
+    width: 70%;
+    height: 450px;
+    padding-top: 50px;
+    background-color: rgb(173,253,165);
+    float: left;
+}
+
+#prawy {
+    width: 15%;
+    height: 450px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(68,184,57);
+    float: right;
+}
+
+footer {
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(41,168,41);
+    clear: both;
+}
+
+h1 {
+    font-family: Verdana;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+    list-style-type: circle;
+}
+
+q:hover {
+    color: rgb(41,168,41);
+}
